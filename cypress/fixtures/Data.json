@@ -1,0 +1,34 @@
+{
+  "rows": [
+    {
+      "Email": "paulocosta@gmail.com.br",
+      "Password": "asdfg",
+      "Message": "Password must be at least 8 characters",
+      "Validador": 1
+    },
+    {
+      "Email": "paulo@",
+      "Password": "123456abcd",
+      "Message": "Please enter a valid email address",
+      "Validador": 2
+    },
+    {
+      "Email": "paulocosta@gmail.com.br",
+      "Password": "assasd",
+      "Message": "Invalid email or password.",
+      "Validador": 0
+    },
+    {
+      "Email": "asdr@teste.com.br",
+      "Password": "123456abcd",
+      "Message": "Invalid email or password.",
+      "Validador": 0
+    },
+    {
+      "Email": "paulocosta@gmail.com.br",
+      "Password": "123456abcd",
+      "Message": "Your Student Dashboard, Paulo C",
+      "Validador": 3
+    }
+  ]
+}
