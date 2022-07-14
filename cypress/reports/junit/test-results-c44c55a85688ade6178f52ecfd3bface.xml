@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="247.9130" tests="3" failures="2">
+  <testsuite name="Root Suite" timestamp="2022-07-14T17:58:34" tests="0" file="cypress\e2e\ST08Academy\CTAcademySignIn.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="CTSigIn" timestamp="2022-07-14T17:58:34" tests="3" time="247.9130" failures="2">
+    <testcase name="CTSigIn cT01ValidaLinkRedeSocialLinkedin" time="75.1910" classname="cT01ValidaLinkRedeSocialLinkedin">
+      <failure message="Timed out retrying after 50000ms: Expected to find element: `[type=&quot;linkedin-logo&quot;]`, but never found it.
+
+The command was expected to run against origin `https://gatling.io` but the application is at origin `https://linkedin.com`.
+
+This commonly happens when you have either not navigated to the expected origin or have navigated away unexpectedly." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 50000ms: Expected to find element: `[type="linkedin-logo"]`, but never found it.
+
+The command was expected to run against origin `https://gatling.io` but the application is at origin `https://linkedin.com`.
+
+This commonly happens when you have either not navigated to the expected origin or have navigated away unexpectedly.
+    at AcademySigInPage.RedeSocial (https://gatling.io/__cypress/tests?p=cypress\e2e\ST08Academy\CTAcademySignIn.spec.js:315:10)
+    at Context.eval (https://gatling.io/__cypress/tests?p=cypress\e2e\ST08Academy\CTAcademySignIn.spec.js:131:31)]]></failure>
+    </testcase>
+    <testcase name="CTSigIn cT02ValidaLogin" time="128.2280" classname="cT02ValidaLogin">
+      <failure message="Timed out retrying after 50000ms: Expected to find element: `[class=&quot;form-error__list-item&quot;]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 50000ms: Expected to find element: `[class="form-error__list-item"]`, but never found it.
+    at Context.eval (https://gatling.io/__cypress/tests?p=cypress\e2e\ST08Academy\CTAcademySignIn.spec.js:339:37)]]></failure>
+    </testcase>
+    <testcase name="CTSigIn cT0ValidaLembrarEmail" time="44.4940" classname="cT0ValidaLembrarEmail">
+    </testcase>
+  </testsuite>
+</testsuites>

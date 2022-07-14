@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="147.8920" tests="8" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-07-14T17:38:34" tests="0" file="cypress\e2e\ST01Home\CTHome.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="CTHome" timestamp="2022-07-14T17:38:34" tests="8" time="147.8920" failures="1">
+    <testcase name="CTHome cT01ValidaLinkFerramentaOpenSource" time="29.5380" classname="cT01ValidaLinkFerramentaOpenSource">
+    </testcase>
+    <testcase name="CTHome cT02ValidaSecaoNews" time="58.8100" classname="cT02ValidaSecaoNews">
+      <failure message="Timed out retrying after 50000ms: expected &apos;[ &lt;p.title_card_long&gt;, 2 more... ]&apos; to contain &apos;New injector region: South America&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 50000ms: expected '[ <p.title_card_long>, 2 more... ]' to contain 'New injector region: South America'
+    at HomePage.Secao (https://gatling.io/__cypress/tests?p=cypress\e2e\ST01Home\CTHome.spec.js:202:39)
+    at Context.eval (https://gatling.io/__cypress/tests?p=cypress\e2e\ST01Home\CTHome.spec.js:130:23)]]></failure>
+    </testcase>
+    <testcase name="CTHome cT03ValidaSecaoDepoimentos" time="8.3240" classname="cT03ValidaSecaoDepoimentos">
+    </testcase>
+    <testcase name="CTHome cT04ValidaLinkGatlingEnterpriseCloud" time="13.6490" classname="cT04ValidaLinkGatlingEnterpriseCloud">
+    </testcase>
+    <testcase name="CTHome cT05ValidaLinkRecursoWhitePaper" time="9.6380" classname="cT05ValidaLinkRecursoWhitePaper">
+    </testcase>
+    <testcase name="CTHome cT06ValidaLinkRecursoWebinars" time="10.6910" classname="cT06ValidaLinkRecursoWebinars">
+    </testcase>
+    <testcase name="CTHome cT07EnviaEmailParaReceberContato" time="7.1790" classname="cT07EnviaEmailParaReceberContato">
+    </testcase>
+    <testcase name="CTHome cT08ValidaLinkReservarDemonstracao" time="10.0630" classname="cT08ValidaLinkReservarDemonstracao">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="160.6330" tests="7" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-07-14T17:42:07" tests="0" file="cypress\e2e\ST02Rodape\CTRodape.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="CTRodape" timestamp="2022-07-14T17:42:07" tests="7" time="160.6330" failures="1">
+    <testcase name="CTRodape cT01ValidaRedirecionamentoCommunity" time="22.1870" classname="cT01ValidaRedirecionamentoCommunity">
+    </testcase>
+    <testcase name="CTRodape cT02ValidaRedirecionamentoLinkedin" time="58.7700" classname="cT02ValidaRedirecionamentoLinkedin">
+      <failure message="Timed out retrying after 50000ms: Expected to find element: `[class=&quot;linkedin-text&quot;]`, but never found it.
+
+The command was expected to run against origin `https://gatling.io` but the application is at origin `https://linkedin.com`.
+
+This commonly happens when you have either not navigated to the expected origin or have navigated away unexpectedly." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 50000ms: Expected to find element: `[class="linkedin-text"]`, but never found it.
+
+The command was expected to run against origin `https://gatling.io` but the application is at origin `https://linkedin.com`.
+
+This commonly happens when you have either not navigated to the expected origin or have navigated away unexpectedly.
+    at RodapePage.RedeSocial (https://gatling.io/__cypress/tests?p=cypress\e2e\ST02Rodape\CTRodape.spec.js:195:37)
+    at Context.eval (https://gatling.io/__cypress/tests?p=cypress\e2e\ST02Rodape\CTRodape.spec.js:130:25)]]></failure>
+    </testcase>
+    <testcase name="CTRodape cT03ValidaRedirecionamentoYoutube" time="27.5470" classname="cT03ValidaRedirecionamentoYoutube">
+    </testcase>
+    <testcase name="CTRodape cT04ValidaRedirecionamentoGitHub" time="12.3320" classname="cT04ValidaRedirecionamentoGitHub">
+    </testcase>
+    <testcase name="CTRodape cT05ValidaRedirecionamentoPrivacy" time="22.1850" classname="cT05ValidaRedirecionamentoPrivacy">
+    </testcase>
+    <testcase name="CTRodape cT06ValidaRedirecionamentoTermsOfService" time="12.1870" classname="cT06ValidaRedirecionamentoTermsOfService">
+    </testcase>
+    <testcase name="CTRodape cT07ValidaScrollup" time="5.4250" classname="cT07ValidaScrollup">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="143.3700" tests="3" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-07-14T17:54:35" tests="0" file="cypress\e2e\ST08Academy\CTAcademyNewAccount.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="CTNewAccount" timestamp="2022-07-14T17:54:35" tests="3" time="143.3700" failures="1">
+    <testcase name="CTNewAccount cT01CadastroCursoCamposObrigatorios" time="95.8810" classname="cT01CadastroCursoCamposObrigatorios">
+      <failure message="Timed out retrying after 50000ms: Expected to find element: `[class=&quot;form-error__list-item&quot;]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 50000ms: Expected to find element: `[class="form-error__list-item"]`, but never found it.
+    at Context.eval (https://gatling.io/__cypress/tests?p=cypress\e2e\ST08Academy\CTAcademyNewAccount.spec.js:216:40)]]></failure>
+    </testcase>
+    <testcase name="CTNewAccount cT02ValidaLinkJaTenhoContaPaginaCadastro" time="26.7110" classname="cT02ValidaLinkJaTenhoContaPaginaCadastro">
+    </testcase>
+    <testcase name="CTNewAccount cT03ValidaLinkCriarContaPaginaLogin" time="20.7780" classname="cT03ValidaLinkCriarContaPaginaLogin">
+    </testcase>
+  </testsuite>
+</testsuites>
