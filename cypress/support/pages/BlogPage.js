@@ -59,7 +59,8 @@ class BlogPage {
     }
 
     PostagemRecente() {
-        cy.xpath(this.ClicarArtigo).first().click()
+        cy.xpath(this.LoadMoreBlogAll).first().click()
+        cy.xpath(this.ClicarArtigo).first().click({force:true})
         cy.get(this.TituloArtigo).should('exist').and('be.visible')
         cy.get(this.RecentePostagem).click()
         cy.get(this.TituloArtigo).should('exist').and('be.visible')
