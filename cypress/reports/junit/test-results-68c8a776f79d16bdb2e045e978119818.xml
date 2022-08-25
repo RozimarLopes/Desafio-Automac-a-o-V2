@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="58.3670" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-08-24T22:12:07" tests="0" file="cypress\e2e\ST05PaginaPrecos\CTPrecos.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="CTPrecos" timestamp="2022-08-24T22:12:07" tests="3" time="58.3670" failures="0">
+    <testcase name="CTPrecos cT01ValidaCloudPlansMonthly" time="26.6080" classname="cT01ValidaCloudPlansMonthly">
+    </testcase>
+    <testcase name="CTPrecos cT02ValidaCloudPlansAnnually" time="14.3570" classname="cT02ValidaCloudPlansAnnually">
+    </testcase>
+    <testcase name="CTPrecos cT03ValidaLinkConsultoriaServicos" time="17.4020" classname="cT03ValidaLinkConsultoriaServicos">
+    </testcase>
+  </testsuite>
+</testsuites>

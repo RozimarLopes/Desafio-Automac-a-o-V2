@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="99.4750" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-08-24T22:00:42" tests="0" file="cypress\e2e\ST01Home\CTHome.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="CTHome" timestamp="2022-08-24T22:00:42" tests="8" time="99.4750" failures="0">
+    <testcase name="CTHome cT01ValidaLinkFerramentaOpenSource" time="26.6550" classname="cT01ValidaLinkFerramentaOpenSource">
+    </testcase>
+    <testcase name="CTHome cT02ValidaSecaoNews" time="7.4840" classname="cT02ValidaSecaoNews">
+    </testcase>
+    <testcase name="CTHome cT03ValidaSecaoDepoimentos" time="7.2540" classname="cT03ValidaSecaoDepoimentos">
+    </testcase>
+    <testcase name="CTHome cT04ValidaLinkGatlingEnterpriseCloud" time="11.9250" classname="cT04ValidaLinkGatlingEnterpriseCloud">
+    </testcase>
+    <testcase name="CTHome cT05ValidaLinkRecursoWhitePaper" time="12.6700" classname="cT05ValidaLinkRecursoWhitePaper">
+    </testcase>
+    <testcase name="CTHome cT06ValidaLinkRecursoWebinars" time="13.5000" classname="cT06ValidaLinkRecursoWebinars">
+    </testcase>
+    <testcase name="CTHome cT07EnviaEmailParaReceberContato" time="8.0200" classname="cT07EnviaEmailParaReceberContato">
+    </testcase>
+    <testcase name="CTHome cT08ValidaLinkReservarDemonstracao" time="11.9670" classname="cT08ValidaLinkReservarDemonstracao">
+    </testcase>
+  </testsuite>
+</testsuites>

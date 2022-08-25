@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="134.5200" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-08-24T23:39:41" tests="0" file="cypress\e2e\ST09GatlingEnterprise\CTGatlingEnterprise.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="CTGatlingEnterprise" timestamp="2022-08-24T23:39:41" tests="7" time="134.5200" failures="0">
+    <testcase name="CTGatlingEnterprise cT01ValidaBotaoTrySelfHosted" time="22.5730" classname="cT01ValidaBotaoTrySelfHosted">
+    </testcase>
+    <testcase name="CTGatlingEnterprise cT02ValidaBotaoTryCloud" time="20.7430" classname="cT02ValidaBotaoTryCloud">
+    </testcase>
+    <testcase name="CTGatlingEnterprise cT03ValidaLinkReadFAQAzure" time="19.9910" classname="cT03ValidaLinkReadFAQAzure">
+    </testcase>
+    <testcase name="CTGatlingEnterprise cT04ValidaLinkReadFAQAws" time="25.4870" classname="cT04ValidaLinkReadFAQAws">
+    </testcase>
+    <testcase name="CTGatlingEnterprise cT05ValidaBotaoLerDocumentacao" time="14.1070" classname="cT05ValidaBotaoLerDocumentacao">
+    </testcase>
+    <testcase name="CTGatlingEnterprise cT06ValidaBotaoLerMaisCloudOffers" time="15.4060" classname="cT06ValidaBotaoLerMaisCloudOffers">
+    </testcase>
+    <testcase name="CTGatlingEnterprise cT07ValidaBotaoDescubraPrecos" time="16.2130" classname="cT07ValidaBotaoDescubraPrecos">
+    </testcase>
+  </testsuite>
+</testsuites>

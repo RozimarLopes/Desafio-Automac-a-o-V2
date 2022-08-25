@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="126.4120" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-08-25T00:15:55" tests="0" file="cypress\e2e\ST06Blog\CTBlog.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="CTBlog" timestamp="2022-08-25T00:15:55" tests="6" time="126.4120" failures="0">
+    <testcase name="CTBlog cT01ValidaCampoPesquisa" time="19.2930" classname="cT01ValidaCampoPesquisa">
+    </testcase>
+    <testcase name="CTBlog cT02ValidaLoadMoreAll" time="12.2610" classname="cT02ValidaLoadMoreAll">
+    </testcase>
+    <testcase name="CTBlog cT03ValidaLoadMoreEvent" time="21.7160" classname="cT03ValidaLoadMoreEvent">
+    </testcase>
+    <testcase name="CTBlog cT04ValidaLinkArtigoAll" time="20.0840" classname="cT04ValidaLinkArtigoAll">
+    </testcase>
+    <testcase name="CTBlog cT05ValidaLinkPostagemMaisAntiga" time="27.9190" classname="cT05ValidaLinkPostagemMaisAntiga">
+    </testcase>
+    <testcase name="CTBlog cT06ValidaLinkPostagemMaisRecente" time="25.1390" classname="cT06ValidaLinkPostagemMaisRecente">
+    </testcase>
+  </testsuite>
+</testsuites>

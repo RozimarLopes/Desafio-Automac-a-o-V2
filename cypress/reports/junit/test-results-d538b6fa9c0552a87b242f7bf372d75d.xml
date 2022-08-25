@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="180.5280" tests="7" failures="2">
+  <testsuite name="Root Suite" timestamp="2022-08-24T22:02:29" tests="0" file="cypress\e2e\ST02Rodape\CTRodape.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="CTRodape" timestamp="2022-08-24T22:02:29" tests="7" time="180.5280" failures="2">
+    <testcase name="CTRodape cT01ValidaRedirecionamentoCommunity" time="19.5540" classname="cT01ValidaRedirecionamentoCommunity">
+    </testcase>
+    <testcase name="CTRodape cT02ValidaRedirecionamentoLinkedin" time="57.3700" classname="cT02ValidaRedirecionamentoLinkedin">
+      <failure message="Timed out retrying after 50000ms: Expected to find element: `[class=&quot;linkedin-text&quot;]`, but never found it.
+
+The command was expected to run against origin `https://gatling.io` but the application is at origin `https://linkedin.com`.
+
+This commonly happens when you have either not navigated to the expected origin or have navigated away unexpectedly." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 50000ms: Expected to find element: `[class="linkedin-text"]`, but never found it.
+
+The command was expected to run against origin `https://gatling.io` but the application is at origin `https://linkedin.com`.
+
+This commonly happens when you have either not navigated to the expected origin or have navigated away unexpectedly.
+    at RodapePage.RedeSocial (https://gatling.io/__cypress/tests?p=cypress\e2e\ST02Rodape\CTRodape.spec.js:195:37)
+    at Context.eval (https://gatling.io/__cypress/tests?p=cypress\e2e\ST02Rodape\CTRodape.spec.js:130:25)]]></failure>
+    </testcase>
+    <testcase name="CTRodape cT03ValidaRedirecionamentoYoutube" time="13.2300" classname="cT03ValidaRedirecionamentoYoutube">
+    </testcase>
+    <testcase name="CTRodape cT04ValidaRedirecionamentoGitHub" time="11.6370" classname="cT04ValidaRedirecionamentoGitHub">
+    </testcase>
+    <testcase name="CTRodape cT05ValidaRedirecionamentoPrivacy" time="12.3900" classname="cT05ValidaRedirecionamentoPrivacy">
+    </testcase>
+    <testcase name="CTRodape cT06ValidaRedirecionamentoTermsOfService" time="10.4780" classname="cT06ValidaRedirecionamentoTermsOfService">
+    </testcase>
+    <testcase name="CTRodape cT07ValidaScrollup" time="55.8690" classname="cT07ValidaScrollup">
+      <failure message="Timed out retrying after 50050ms: `cy.click()` failed because the center of this element is hidden from view:
+
+`&lt;i class=&quot;fa fa-angle-up&quot;&gt;&lt;/i&gt;`
+
+Fix this problem, or use `{force: true}` to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with" type="CypressError"><![CDATA[CypressError: Timed out retrying after 50050ms: `cy.click()` failed because the center of this element is hidden from view:
+
+`<i class="fa fa-angle-up"></i>`
+
+Fix this problem, or use `{force: true}` to disable error checking.
+
+https://on.cypress.io/element-cannot-be-interacted-with
+    at $Cy.ensureDescendents (https://gatling.io/__cypress/runner/cypress_runner.js:162021:76)
+    at ensureDescendents (https://gatling.io/__cypress/runner/cypress_runner.js:147397:8)
+    at ensureDescendentsAndScroll (https://gatling.io/__cypress/runner/cypress_runner.js:147404:14)
+    at ensureElIsNotCovered (https://gatling.io/__cypress/runner/cypress_runner.js:147536:5)
+    at runAllChecks (https://gatling.io/__cypress/runner/cypress_runner.js:147726:52)
+    at retryActionability (https://gatling.io/__cypress/runner/cypress_runner.js:147750:16)
+    at tryCatcher (https://gatling.io/__cypress/runner/cypress_runner.js:13012:23)
+    at Promise.attempt.Promise.try (https://gatling.io/__cypress/runner/cypress_runner.js:10286:29)
+    at whenStable (https://gatling.io/__cypress/runner/cypress_runner.js:166931:65)
+    at https://gatling.io/__cypress/runner/cypress_runner.js:166385:14
+    at tryCatcher (https://gatling.io/__cypress/runner/cypress_runner.js:13012:23)
+    at Promise._settlePromiseFromHandler (https://gatling.io/__cypress/runner/cypress_runner.js:10947:31)
+    at Promise._settlePromise (https://gatling.io/__cypress/runner/cypress_runner.js:11004:18)
+    at Promise._settlePromise0 (https://gatling.io/__cypress/runner/cypress_runner.js:11049:10)
+    at Promise._settlePromises (https://gatling.io/__cypress/runner/cypress_runner.js:11129:18)
+    at Promise._fulfill (https://gatling.io/__cypress/runner/cypress_runner.js:11073:18)
+    at https://gatling.io/__cypress/runner/cypress_runner.js:12687:46
+From Your Spec Code:
+    at RodapePage.Scrollup (https://gatling.io/__cypress/tests?p=cypress\e2e\ST02Rodape\CTRodape.spec.js:222:25)
+    at Context.eval (https://gatling.io/__cypress/tests?p=cypress\e2e\ST02Rodape\CTRodape.spec.js:145:25)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

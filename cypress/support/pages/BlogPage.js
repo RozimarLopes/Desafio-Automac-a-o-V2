@@ -35,7 +35,7 @@ class BlogPage {
     LoadMore(submenu) {
         switch (submenu) {
             case 'All':
-                cy.xpath(this.LoadMoreBlogAll).first().click()
+                cy.xpath(this.LoadMoreBlogAll).first().click({force:true})
                 cy.xpath(this.ArtigoAll).first().should('contain', 'Welcome to Bastien!')
                 break;
             case 'Event':

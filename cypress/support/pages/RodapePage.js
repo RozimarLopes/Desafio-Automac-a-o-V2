@@ -55,7 +55,7 @@ class RodapePage {
 
     Scrollup() {
         cy.get(this.Privacy).scrollIntoView()
-        cy.get(this.Scroll).click()
+        cy.get(this.Scroll).click({force:true})
         cy.get(this.GatlingTopo).should('be.visible')
     }
 

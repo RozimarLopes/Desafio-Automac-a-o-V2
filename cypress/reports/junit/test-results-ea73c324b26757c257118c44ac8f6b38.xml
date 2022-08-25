@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="129.3840" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-08-24T22:07:55" tests="0" file="cypress\e2e\ST04PaginaContato\CTContato.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="CTContato" timestamp="2022-08-24T22:07:55" tests="2" time="129.3840" failures="1">
+    <testcase name="CTContato cT01CamposObrigatórioseSucesso" time="101.4910" classname="cT01CamposObrigatórioseSucesso">
+      <failure message="Timed out retrying after 50000ms: Expected to find element: `.hbspt-form .submitted-message`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 50000ms: Expected to find element: `.hbspt-form .submitted-message`, but never found it.
+    at Context.eval (https://gatling.io/__cypress/tests?p=cypress\e2e\ST04PaginaContato\CTContato.spec.js:215:43)]]></failure>
+    </testcase>
+    <testcase name="CTContato cT02ValidaGoHome" time="27.8930" classname="cT02ValidaGoHome">
+    </testcase>
+  </testsuite>
+</testsuites>

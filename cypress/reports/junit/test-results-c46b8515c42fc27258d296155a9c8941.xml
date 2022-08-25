@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="78.0560" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-08-25T00:11:36" tests="0" file="cypress\e2e\ST02Rodape\CTRodape.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="CTRodape" timestamp="2022-08-25T00:11:36" tests="6" time="78.0560" failures="0">
+    <testcase name="CTRodape cT01ValidaRedirecionamentoCommunity" time="20.4740" classname="cT01ValidaRedirecionamentoCommunity">
+    </testcase>
+    <testcase name="CTRodape cT03ValidaRedirecionamentoYoutube" time="14.5680" classname="cT03ValidaRedirecionamentoYoutube">
+    </testcase>
+    <testcase name="CTRodape cT04ValidaRedirecionamentoGitHub" time="13.0530" classname="cT04ValidaRedirecionamentoGitHub">
+    </testcase>
+    <testcase name="CTRodape cT05ValidaRedirecionamentoPrivacy" time="14.1640" classname="cT05ValidaRedirecionamentoPrivacy">
+    </testcase>
+    <testcase name="CTRodape cT06ValidaRedirecionamentoTermsOfService" time="11.3570" classname="cT06ValidaRedirecionamentoTermsOfService">
+    </testcase>
+    <testcase name="CTRodape cT07ValidaScrollup" time="4.4400" classname="cT07ValidaScrollup">
+    </testcase>
+  </testsuite>
+</testsuites>

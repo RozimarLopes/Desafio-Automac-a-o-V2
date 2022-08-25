@@ -43,12 +43,12 @@ class DocumentacaoPage {
 
     TemaPagina(tema) {
         if (tema == 'Escuro') {
-            cy.get(this.TemaEscuro).click()
-            cy.get(this.TemaClaro).should('be.visible').and('exist')
+            cy.get(this.TemaEscuro).click({force:true})
+            cy.get(this.TemaClaro).and('exist')
         } else if (tema == 'Claro') {
-            cy.get(this.TemaEscuro).click()
-            cy.get(this.TemaClaro).click()
-            cy.get(this.TemaEscuro).should('be.visible').and('exist')
+            cy.get(this.TemaEscuro).click({force:true})
+            cy.get(this.TemaClaro).click({force:true})
+            cy.get(this.TemaEscuro).and('exist')
         }
     }
 

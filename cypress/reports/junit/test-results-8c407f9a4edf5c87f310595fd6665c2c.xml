@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="61.1680" tests="5" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-08-24T22:19:37" tests="0" file="cypress\e2e\ST08Academy\CTAcademyCourses.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="CTCourses" timestamp="2022-08-24T22:19:37" tests="5" time="61.1680" failures="1">
+    <testcase name="CTCourses &quot;before each&quot; hook for &quot;cT01ValidaPesquisar&quot;" time="61.1680" classname="&quot;before each&quot; hook for &quot;cT01ValidaPesquisar&quot;">
+      <failure message="Timed out retrying after 50000ms: Expected to find element: `[id=&quot;menu-item-59&quot;]`, but never found it.
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `CTCourses`" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 50000ms: Expected to find element: `[id="menu-item-59"]`, but never found it.
+
+Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `CTCourses`
+    at AcademyNewAccountPage.AcademyMenu (https://gatling.io/__cypress/tests?p=cypress\e2e\ST08Academy\CTAcademyCourses.spec.js:295:8)
+    at AcademyCoursesPage.AcademySubMenuCourse (https://gatling.io/__cypress/tests?p=cypress\e2e\ST08Academy\CTAcademyCourses.spec.js:187:36)
+    at Context.eval (https://gatling.io/__cypress/tests?p=cypress\e2e\ST08Academy\CTAcademyCourses.spec.js:126:33)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

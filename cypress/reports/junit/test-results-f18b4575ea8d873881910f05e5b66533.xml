@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="153.3590" tests="6" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-08-24T22:13:11" tests="0" file="cypress\e2e\ST06Blog\CTBlog.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="CTBlog" timestamp="2022-08-24T22:13:11" tests="6" time="153.3590" failures="1">
+    <testcase name="CTBlog cT01ValidaCampoPesquisa" time="18.4390" classname="cT01ValidaCampoPesquisa">
+    </testcase>
+    <testcase name="CTBlog cT02ValidaLoadMoreAll" time="13.2560" classname="cT02ValidaLoadMoreAll">
+    </testcase>
+    <testcase name="CTBlog cT03ValidaLoadMoreEvent" time="13.8160" classname="cT03ValidaLoadMoreEvent">
+    </testcase>
+    <testcase name="CTBlog cT04ValidaLinkArtigoAll" time="61.1580" classname="cT04ValidaLinkArtigoAll">
+      <failure message="Timed out retrying after 50000ms: Expected to find element: `[class=&quot;entry-title&quot;]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 50000ms: Expected to find element: `[class="entry-title"]`, but never found it.
+    at BlogPage.Artigo (https://gatling.io/__cypress/tests?p=cypress\e2e\ST06Blog\CTBlog.spec.js:214:31)
+    at Context.eval (https://gatling.io/__cypress/tests?p=cypress\e2e\ST06Blog\CTBlog.spec.js:138:23)]]></failure>
+    </testcase>
+    <testcase name="CTBlog cT05ValidaLinkPostagemMaisAntiga" time="27.3050" classname="cT05ValidaLinkPostagemMaisAntiga">
+    </testcase>
+    <testcase name="CTBlog cT06ValidaLinkPostagemMaisRecente" time="19.3850" classname="cT06ValidaLinkPostagemMaisRecente">
+    </testcase>
+  </testsuite>
+</testsuites>

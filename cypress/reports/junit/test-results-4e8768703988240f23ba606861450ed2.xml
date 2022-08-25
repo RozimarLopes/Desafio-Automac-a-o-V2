@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="120.8730" tests="5" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-08-25T00:20:54" tests="0" file="cypress\e2e\ST08Academy\CTAcademyCourses.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="CTCourses" timestamp="2022-08-25T00:20:54" tests="5" time="120.8730" failures="0">
+    <testcase name="CTCourses cT01ValidaPesquisar" time="29.9640" classname="cT01ValidaPesquisar">
+    </testcase>
+    <testcase name="CTCourses cT02ValidaLinkRegistroCursoeCommerceJava" time="18.0590" classname="cT02ValidaLinkRegistroCursoeCommerceJava">
+    </testcase>
+    <testcase name="CTCourses cT03ValidaLinkRegistroCursoFirstTestJava" time="30.0260" classname="cT03ValidaLinkRegistroCursoFirstTestJava">
+    </testcase>
+    <testcase name="CTCourses cT04ValidaAvisarProximoModulo" time="22.5410" classname="cT04ValidaAvisarProximoModulo">
+    </testcase>
+    <testcase name="CTCourses cT05ValidaCampoEmailMailingList" time="20.2830" classname="cT05ValidaCampoEmailMailingList">
+    </testcase>
+  </testsuite>
+</testsuites>

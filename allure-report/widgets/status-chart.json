@@ -1,0 +1,511 @@
+[ {
+  "uid" : "dd347b399688694e",
+  "name" : "cT03ValidaLinkRegistroCursoFirstTestJava",
+  "time" : {
+    "start" : 1661386902478,
+    "stop" : 1661386932505,
+    "duration" : 30027
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "15ca2b815091f376",
+  "name" : "cT01ValidaCloudPlansMonthly",
+  "time" : {
+    "start" : 1661386499034,
+    "stop" : 1661386520415,
+    "duration" : 21381
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "509f5498784e817f",
+  "name" : "cT07ValidaCarregamentoImagemCloud",
+  "time" : {
+    "start" : 1661386832808,
+    "stop" : 1661386846424,
+    "duration" : 13616
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2dd0663b4fbfd95",
+  "name" : "cT02ValidaTemaClaro",
+  "time" : {
+    "start" : 1661386769798,
+    "stop" : 1661386777510,
+    "duration" : 7712
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5323f4e990df32b",
+  "name" : "cT04ValidaAvisarProximoModulo",
+  "time" : {
+    "start" : 1661386932534,
+    "stop" : 1661386955077,
+    "duration" : 22543
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e40c55972a93b094",
+  "name" : "cT06ValidaRedirecionamentoTermsOfService",
+  "time" : {
+    "start" : 1661386358688,
+    "stop" : 1661386370046,
+    "duration" : 11358
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66fd107b7f4123bf",
+  "name" : "cT06ValidaBotaoLerMaisCloudOffers",
+  "time" : {
+    "start" : 1661387265427,
+    "stop" : 1661387280798,
+    "duration" : 15371
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1925835d5de2edc7",
+  "name" : "cT02ValidaGoHome",
+  "time" : {
+    "start" : 1661386473735,
+    "stop" : 1661386490759,
+    "duration" : 17024
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2dbbad281c01ce0e",
+  "name" : "cT05ValidaRedirecionamentoPrivacy",
+  "time" : {
+    "start" : 1661386344469,
+    "stop" : 1661386358633,
+    "duration" : 14164
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8b7161c4f269130",
+  "name" : "cT07ValidaScrollup",
+  "time" : {
+    "start" : 1661386370079,
+    "stop" : 1661386374520,
+    "duration" : 4441
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7852b9406887b86a",
+  "name" : "cT04ValidaLinkGitHub",
+  "time" : {
+    "start" : 1661386788833,
+    "stop" : 1661386800061,
+    "duration" : 11228
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9aac28557c663dad",
+  "name" : "cT02ValidaLogin",
+  "time" : {
+    "start" : 1661387101586,
+    "stop" : 1661387137415,
+    "duration" : 35829
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1245a0584d1ee20",
+  "name" : "cT02ValidaCloudPlansAnnually",
+  "time" : {
+    "start" : 1661386520490,
+    "stop" : 1661386532291,
+    "duration" : 11801
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "194d052ac29bf5e8",
+  "name" : "cT01CamposObrigatórioseSucesso",
+  "time" : {
+    "start" : 1661386411397,
+    "stop" : 1661386473643,
+    "duration" : 62246
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e700fc28c8c82d30",
+  "name" : "cT05ValidaLinkPostagemMaisAntiga",
+  "time" : {
+    "start" : 1661386691488,
+    "stop" : 1661386719409,
+    "duration" : 27921
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9d324283192deed",
+  "name" : "cT0ValidaLembrarEmail",
+  "time" : {
+    "start" : 1661387137496,
+    "stop" : 1661387154036,
+    "duration" : 16540
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4c97bf403152a0d",
+  "name" : "cT02ValidaLinkRegistroCursoeCommerceJava",
+  "time" : {
+    "start" : 1661386884396,
+    "stop" : 1661386902455,
+    "duration" : 18059
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f969a6949bcf4d8",
+  "name" : "cT04ValidaRedirecionamentoGitHub",
+  "time" : {
+    "start" : 1661386331400,
+    "stop" : 1661386344455,
+    "duration" : 13055
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b23cbd9ec918365",
+  "name" : "cT02ValidaBotaoTryCloud",
+  "time" : {
+    "start" : 1661387187215,
+    "stop" : 1661387208578,
+    "duration" : 21363
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e33f8958a7a2087b",
+  "name" : "cT04ValidaLinkArtigoAll",
+  "time" : {
+    "start" : 1661386671356,
+    "stop" : 1661386691441,
+    "duration" : 20085
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74c8fc0b04f28290",
+  "name" : "cT03ValidaSecaoDepoimentos",
+  "time" : {
+    "start" : 1661386218524,
+    "stop" : 1661386227369,
+    "duration" : 8845
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d39be5f8541d761",
+  "name" : "cT01ValidaRedirecionamentoCommunity",
+  "time" : {
+    "start" : 1661386296292,
+    "stop" : 1661386316770,
+    "duration" : 20478
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f58662225bf8683",
+  "name" : "cT06ValidaLinkPostagemMaisRecente",
+  "time" : {
+    "start" : 1661386719445,
+    "stop" : 1661386744585,
+    "duration" : 25140
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51bd4dba1cc96ce4",
+  "name" : "cT04ValidaLinkReadFAQAws",
+  "time" : {
+    "start" : 1661387226585,
+    "stop" : 1661387251943,
+    "duration" : 25358
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbb669cc0ae6f0db",
+  "name" : "cT02ValidaLoadMoreAll",
+  "time" : {
+    "start" : 1661386575254,
+    "stop" : 1661386587515,
+    "duration" : 12261
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bfb43ca23fdb3806",
+  "name" : "cT03ValidaLinkReadFAQAzure",
+  "time" : {
+    "start" : 1661387208604,
+    "stop" : 1661387226543,
+    "duration" : 17939
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80a4c6a8aba58e32",
+  "name" : "cT06ValidaLinkRecursoWebinars",
+  "time" : {
+    "start" : 1661386254316,
+    "stop" : 1661386267661,
+    "duration" : 13345
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e614a0658cdae878",
+  "name" : "cT03ValidaLoadMoreEvent",
+  "time" : {
+    "start" : 1661386587537,
+    "stop" : 1661386609254,
+    "duration" : 21717
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "209516f47338d7e9",
+  "name" : "cT06ValidaSelfHostedReferencia",
+  "time" : {
+    "start" : 1661386816194,
+    "stop" : 1661386832771,
+    "duration" : 16577
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbfdee238827e4f9",
+  "name" : "cT03ValidaLinkCriarContaPaginaLogin",
+  "time" : {
+    "start" : 1661387061520,
+    "stop" : 1661387093330,
+    "duration" : 31810
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "83d08268c00f64d1",
+  "name" : "cT01ValidaBotaoTrySelfHosted",
+  "time" : {
+    "start" : 1661387161331,
+    "stop" : 1661387187140,
+    "duration" : 25809
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8244d4ad102c3232",
+  "name" : "cT03ValidaRedirecionamentoYoutube",
+  "time" : {
+    "start" : 1661386316797,
+    "stop" : 1661386331366,
+    "duration" : 14569
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df429d9440e540df",
+  "name" : "cT07EnviaEmailParaReceberContato",
+  "time" : {
+    "start" : 1661386267711,
+    "stop" : 1661386274615,
+    "duration" : 6904
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7d8cad069c59a15",
+  "name" : "cT07ValidaBotaoDescubraPrecos",
+  "time" : {
+    "start" : 1661387280828,
+    "stop" : 1661387305116,
+    "duration" : 24288
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2de5dfe9e173189e",
+  "name" : "cT05ValidaLinkRecursoWhitePaper",
+  "time" : {
+    "start" : 1661386242065,
+    "stop" : 1661386254292,
+    "duration" : 12227
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6cb5b013d3f385cf",
+  "name" : "cT01ValidaLinkFerramentaOpenSource",
+  "time" : {
+    "start" : 1661386174653,
+    "stop" : 1661386209806,
+    "duration" : 35153
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc1391ea7634d773",
+  "name" : "cT01ValidaSubMenuWhyGatling",
+  "time" : {
+    "start" : 1661386383045,
+    "stop" : 1661386396483,
+    "duration" : 13438
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11889810a8aeb066",
+  "name" : "cT03ValidaLinkConsultoriaServicos",
+  "time" : {
+    "start" : 1661386532333,
+    "stop" : 1661386548639,
+    "duration" : 16306
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10b721b695bf879a",
+  "name" : "cT02ValidaSecaoNews",
+  "time" : {
+    "start" : 1661386209869,
+    "stop" : 1661386218449,
+    "duration" : 8580
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc66a5b694e08bd2",
+  "name" : "cT05EditarPaginanoGitHub",
+  "time" : {
+    "start" : 1661386800081,
+    "stop" : 1661386816163,
+    "duration" : 16082
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5b2d2f20c530fbf",
+  "name" : "cT01CadastroCursoCamposObrigatorios",
+  "time" : {
+    "start" : 1661386984768,
+    "stop" : 1661387038113,
+    "duration" : 53345
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "15f51e9c4defdfaf",
+  "name" : "cT03PesquisarDocumento",
+  "time" : {
+    "start" : 1661386777535,
+    "stop" : 1661386788809,
+    "duration" : 11274
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9817b44275cbf128",
+  "name" : "cT05ValidaBotaoLerDocumentacao",
+  "time" : {
+    "start" : 1661387251978,
+    "stop" : 1661387265401,
+    "duration" : 13423
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e4ddd9d23721cc8",
+  "name" : "cT05ValidaCampoEmailMailingList",
+  "time" : {
+    "start" : 1661386955087,
+    "stop" : 1661386975372,
+    "duration" : 20285
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "71a30efb0705c062",
+  "name" : "cT01ValidaPesquisar",
+  "time" : {
+    "start" : 1661386854396,
+    "stop" : 1661386884365,
+    "duration" : 29969
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc29c1294f7146ae",
+  "name" : "cT01ValidaTemaEscuro",
+  "time" : {
+    "start" : 1661386753355,
+    "stop" : 1661386769753,
+    "duration" : 16398
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1c4737faa95758d",
+  "name" : "cT02ValidaLinkJaTenhoContaPaginaCadastro",
+  "time" : {
+    "start" : 1661387038148,
+    "stop" : 1661387061489,
+    "duration" : 23341
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b0da53ebcd47fb8e",
+  "name" : "cT08ValidaLinkReservarDemonstracao",
+  "time" : {
+    "start" : 1661386274641,
+    "stop" : 1661386287407,
+    "duration" : 12766
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "200576921c930e17",
+  "name" : "cT04ValidaLinkGatlingEnterpriseCloud",
+  "time" : {
+    "start" : 1661386227398,
+    "stop" : 1661386242046,
+    "duration" : 14648
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4eed9303eb028d4",
+  "name" : "cT02ValidaSubMenuLearnMore",
+  "time" : {
+    "start" : 1661386396617,
+    "stop" : 1661386403190,
+    "duration" : 6573
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d2cead316123a9b",
+  "name" : "cT01ValidaCampoPesquisa",
+  "time" : {
+    "start" : 1661386555903,
+    "stop" : 1661386575198,
+    "duration" : 19295
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

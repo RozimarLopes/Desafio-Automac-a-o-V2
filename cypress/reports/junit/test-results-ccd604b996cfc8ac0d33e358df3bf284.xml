@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="60.9960" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-08-24T23:25:00" tests="0" file="cypress\e2e\ST04PaginaContato\CTContato.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="CTContato" timestamp="2022-08-24T23:25:00" tests="2" time="60.9960" failures="0">
+    <testcase name="CTContato cT01CamposObrigatórioseSucesso" time="44.6100" classname="cT01CamposObrigatórioseSucesso">
+    </testcase>
+    <testcase name="CTContato cT02ValidaGoHome" time="16.3860" classname="cT02ValidaGoHome">
+    </testcase>
+  </testsuite>
+</testsuites>

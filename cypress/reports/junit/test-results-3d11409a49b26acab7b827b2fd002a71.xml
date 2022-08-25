@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="221.3360" tests="6" failures="2">
+  <testsuite name="Root Suite" timestamp="2022-08-24T23:27:07" tests="0" file="cypress\e2e\ST06Blog\CTBlog.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="CTBlog" timestamp="2022-08-24T23:27:07" tests="6" time="221.3360" failures="2">
+    <testcase name="CTBlog cT01ValidaCampoPesquisa" time="22.1930" classname="cT01ValidaCampoPesquisa">
+    </testcase>
+    <testcase name="CTBlog cT02ValidaLoadMoreAll" time="22.9970" classname="cT02ValidaLoadMoreAll">
+    </testcase>
+    <testcase name="CTBlog cT03ValidaLoadMoreEvent" time="11.0250" classname="cT03ValidaLoadMoreEvent">
+    </testcase>
+    <testcase name="CTBlog cT04ValidaLinkArtigoAll" time="62.3870" classname="cT04ValidaLinkArtigoAll">
+      <failure message="Timed out retrying after 50000ms: Expected to find element: `[class=&quot;entry-title&quot;]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 50000ms: Expected to find element: `[class="entry-title"]`, but never found it.
+    at BlogPage.Artigo (https://gatling.io/__cypress/tests?p=cypress\e2e\ST06Blog\CTBlog.spec.js:216:31)
+    at Context.eval (https://gatling.io/__cypress/tests?p=cypress\e2e\ST06Blog\CTBlog.spec.js:138:23)]]></failure>
+    </testcase>
+    <testcase name="CTBlog cT05ValidaLinkPostagemMaisAntiga" time="73.4680" classname="cT05ValidaLinkPostagemMaisAntiga">
+      <failure message="Timed out retrying after 50000ms: Expected to find element: `[class=&quot;entry-title&quot;]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 50000ms: Expected to find element: `[class="entry-title"]`, but never found it.
+    at BlogPage.Artigo (https://gatling.io/__cypress/tests?p=cypress\e2e\ST06Blog\CTBlog.spec.js:216:31)
+    at Context.eval (https://gatling.io/__cypress/tests?p=cypress\e2e\ST06Blog\CTBlog.spec.js:141:23)]]></failure>
+    </testcase>
+    <testcase name="CTBlog cT06ValidaLinkPostagemMaisRecente" time="29.2660" classname="cT06ValidaLinkPostagemMaisRecente">
+    </testcase>
+  </testsuite>
+</testsuites>

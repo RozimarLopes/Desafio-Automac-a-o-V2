@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="52.3620" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-08-25T00:25:01" tests="0" file="cypress\e2e\ST08Academy\CTAcademySignIn.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="CTSigIn" timestamp="2022-08-25T00:25:01" tests="2" time="52.3620" failures="0">
+    <testcase name="CTSigIn cT02ValidaLogin" time="35.8250" classname="cT02ValidaLogin">
+    </testcase>
+    <testcase name="CTSigIn cT0ValidaLembrarEmail" time="16.5370" classname="cT0ValidaLembrarEmail">
+    </testcase>
+  </testsuite>
+</testsuites>

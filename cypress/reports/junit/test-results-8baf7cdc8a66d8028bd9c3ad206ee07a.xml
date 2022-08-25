@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="98.3450" tests="7" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-08-24T22:17:53" tests="0" file="cypress\e2e\ST07Documentacao\CTDocumentacao.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="CTDocumentacao" timestamp="2022-08-24T22:17:53" tests="7" time="98.3450" failures="0">
+    <testcase name="CTDocumentacao cT01ValidaTemaEscuro" time="15.0960" classname="cT01ValidaTemaEscuro">
+    </testcase>
+    <testcase name="CTDocumentacao cT02ValidaTemaClaro" time="11.1900" classname="cT02ValidaTemaClaro">
+    </testcase>
+    <testcase name="CTDocumentacao cT03PesquisarDocumento" time="13.8380" classname="cT03PesquisarDocumento">
+    </testcase>
+    <testcase name="CTDocumentacao cT04ValidaLinkGitHub" time="14.0510" classname="cT04ValidaLinkGitHub">
+    </testcase>
+    <testcase name="CTDocumentacao cT05EditarPaginanoGitHub" time="15.1180" classname="cT05EditarPaginanoGitHub">
+    </testcase>
+    <testcase name="CTDocumentacao cT06ValidaSelfHostedReferencia" time="14.9660" classname="cT06ValidaSelfHostedReferencia">
+    </testcase>
+    <testcase name="CTDocumentacao cT07ValidaCarregamentoImagemCloud" time="14.0860" classname="cT07ValidaCarregamentoImagemCloud">
+    </testcase>
+  </testsuite>
+</testsuites>

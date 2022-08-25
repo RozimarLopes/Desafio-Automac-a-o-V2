@@ -23,12 +23,6 @@
       "Password": "123456abcd",
       "Message": "Invalid email or password.",
       "Validador": 0
-    },
-    {
-      "Email": "paulocosta@gmail.com.br",
-      "Password": "123456abcd",
-      "Message": "Your Student Dashboard, Paulo C",
-      "Validador": 3
     }
   ]
 }

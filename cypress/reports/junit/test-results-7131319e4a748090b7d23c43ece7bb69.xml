@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="108.4870" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-08-25T00:23:04" tests="0" file="cypress\e2e\ST08Academy\CTAcademyNewAccount.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="CTNewAccount" timestamp="2022-08-25T00:23:04" tests="3" time="108.4870" failures="0">
+    <testcase name="CTNewAccount cT01CadastroCursoCamposObrigatorios" time="53.3420" classname="cT01CadastroCursoCamposObrigatorios">
+    </testcase>
+    <testcase name="CTNewAccount cT02ValidaLinkJaTenhoContaPaginaCadastro" time="23.3380" classname="cT02ValidaLinkJaTenhoContaPaginaCadastro">
+    </testcase>
+    <testcase name="CTNewAccount cT03ValidaLinkCriarContaPaginaLogin" time="31.8070" classname="cT03ValidaLinkCriarContaPaginaLogin">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -3,7 +3,7 @@ class AcademyNewAccountPage {
 
     //#region contructor
     constructor() {
-        this.MenuAcademy = '[id="menu-item-59"]'
+        this.MenuAcademy = '[id="menu-item-12967"]'
         this.TituloPageAcademy = '//parent::div[contains(h1,"Gatling Academy")]/h1'
         this.BotaoCadastroPrimeiroTeste = 'a[href*="Run-your-first-tests"]'
         this.BotaoRegistroCurso = '[class="button button-primary"]'

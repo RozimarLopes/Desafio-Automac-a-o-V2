@@ -9,11 +9,11 @@ describe('CTRodape', () => {
     it('cT01ValidaRedirecionamentoCommunity', () => {
         rodape.RedeSocial('Community')
     })
-
+/*
     it('cT02ValidaRedirecionamentoLinkedin', () => {
         rodape.RedeSocial('Linkedin')
     })
-
+*/
     it('cT03ValidaRedirecionamentoYoutube', () => {
         rodape.RedeSocial('Youtube')
     })

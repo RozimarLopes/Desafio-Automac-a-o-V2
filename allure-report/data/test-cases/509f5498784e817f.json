@@ -1,0 +1,1060 @@
+{
+  "uid" : "509f5498784e817f",
+  "name" : "cT07ValidaCarregamentoImagemCloud",
+  "fullName" : "cT07ValidaCarregamentoImagemCloud",
+  "historyId" : "01e26e15d1068e55bc2eb9d68c6b9786",
+  "time" : {
+    "start" : 1661386832808,
+    "stop" : 1661386846424,
+    "duration" : 13616
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1661386832808,
+        "stop" : 1661386841915,
+        "duration" : 9107
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "window",
+        "time" : {
+          "start" : 1661386833156,
+          "stop" : 1661386833157,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "visit /",
+        "time" : {
+          "start" : 1661386833157,
+          "stop" : 1661386841139,
+          "duration" : 7982
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://forms.hsforms.com/embed/v3/form/8006059/e1350270-4b87-4de0-ba70-3bb25f259ed8/json?hutk=",
+        "time" : {
+          "start" : 1661386841138,
+          "stop" : 1661386841138,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST 204 https://js.hs-banner.com/cookie-banner-public/v1/domain-collection",
+        "time" : {
+          "start" : 1661386841138,
+          "stop" : 1661386841138,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST 204 https://js.hs-banner.com/cookie-banner-public/v1/activity/view",
+        "time" : {
+          "start" : 1661386841138,
+          "stop" : 1661386841138,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j96&a=859996323&t=pageview&_s=1&dl=https://gatling.io/&ul=pt-br&de=UTF-8&dt=Gatling - Professional Load Testing Tool&sd=24-bit&sr=1280x720&vp=983x660&je=0&_u=YEBAAUABAAAAAC~&jid=2009682485&gjid=1266976542&cid=846220742.1661386839&tid=UA-53375088-1&_gid=1354898571.1661386839&_r=1&gtm=2ou8m0&z=106728129",
+        "time" : {
+          "start" : 1661386841138,
+          "stop" : 1661386841138,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://forms.hubspot.com/collected-forms/v1/config/json?portalId=8006059&utk=",
+        "time" : {
+          "start" : 1661386841138,
+          "stop" : 1661386841138,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST 200 https://www.google-analytics.com/j/collect?v=1&_v=j96&a=859996323&t=pageview&_s=1&dl=https%3A%2F%2Fgatling.io%2F&ul=pt-br&de=UTF-8&dt=Gatling%20-%20Professional%20Load%20Testing%20Tool&sd=24-bit&sr=1280x720&vp=983x660&je=0&_u=YEBAAUABAAAAAC~&jid=2009682485&gjid=1266976542&cid=846220742.1661386839&tid=UA-53375088-1&_gid=1354898571.1661386839&_r=1&gtm=2ou8m0&z=106728129",
+        "time" : {
+          "start" : 1661386841138,
+          "stop" : 1661386841138,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://api.hubspot.com/livechat-public/v1/message/public?portalId=8006059&conversations-embed=static-1.10632&mobile=false&messagesUtk=0abfc98d0ef04dd5bd75935178512fc1&traceId=0abfc98d0ef04dd5bd75935178512fc1",
+        "time" : {
+          "start" : 1661386841138,
+          "stop" : 1661386841138,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST 200 https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-53375088-1&cid=846220742.1661386839&jid=2009682485&gjid=1266976542&_gid=1354898571.1661386839&_u=YEBAAUAAAAAAAC~&z=254133607",
+        "time" : {
+          "start" : 1661386841138,
+          "stop" : 1661386841138,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST https://www.google-analytics.com/j/collect?v=1&_v=j96&a=859996323&t=pageview&_s=1&dl=https://gatling.io/&ul=pt-br&de=UTF-8&dt=Gatling - Professional Load Testing Tool&sd=24-bit&sr=1280x720&vp=983x660&je=0&_u=aEDAAUABQAAAAC~&jid=76628244&gjid=281908158&cid=846220742.1661386839&tid=UA-53375088-1&_gid=1354898571.1661386839&_r=1&gtm=2wg8m0MJX8KRG&z=1496333451",
+        "time" : {
+          "start" : 1661386841139,
+          "stop" : 1661386841139,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST 200 https://www.google-analytics.com/j/collect?v=1&_v=j96&a=859996323&t=pageview&_s=1&dl=https%3A%2F%2Fgatling.io%2F&ul=pt-br&de=UTF-8&dt=Gatling%20-%20Professional%20Load%20Testing%20Tool&sd=24-bit&sr=1280x720&vp=983x660&je=0&_u=aEDAAUABQAAAAC~&jid=76628244&gjid=281908158&cid=846220742.1661386839&tid=UA-53375088-1&_gid=1354898571.1661386839&_r=1&gtm=2wg8m0MJX8KRG&z=1496333451",
+        "time" : {
+          "start" : 1661386841139,
+          "stop" : 1661386841139,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST 200 https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j96&tid=UA-53375088-1&cid=846220742.1661386839&jid=76628244&gjid=281908158&_gid=1354898571.1661386839&_u=aEDAAUABQAAAAC~&z=1313276340",
+        "time" : {
+          "start" : 1661386841139,
+          "stop" : 1661386841139,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "uncaught exception Error: Syntax error, unrecognized expression: #https://gatling.io/",
+        "time" : {
+          "start" : 1661386841139,
+          "stop" : 1661386841139,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://api.hubspot.com/livechat-public/v1/bots/public/bot/1217453/welcomeMessages?hs_static_app=conversations-visitor-ui&hs_static_app_version=1.13084&conversations-visitor-ui=static-1.13084&traceId=0abfc98d0ef04dd5bd75935178512fc1&sessionId=AMOaWbJqNZdPfSmNbIYDj3fWaBD3eH2VKa6aRddHZWR-QyZH9oGcn6Xk5Tv1TDMVx5GnQNUDo7xcRTJsCtKmDDUhj9NXe5he5kRPx0pF0QKWIiVxoNYwS9MFWpdYom9TIZXF2KKwU-WZmTKi1fcnxy0vFCcXxUJ09XdYbm8_D4W5hijoUrXOw1M",
+        "time" : {
+          "start" : 1661386841139,
+          "stop" : 1661386841139,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get #hs-eu-confirmation-button",
+        "time" : {
+          "start" : 1661386841139,
+          "stop" : 1661386841148,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click {force: true}",
+        "time" : {
+          "start" : 1661386841148,
+          "stop" : 1661386841236,
+          "duration" : 88
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://api.hubapi.com/hs-script-loader-public/v1/config/pixel/json?portalId=8006059",
+        "time" : {
+          "start" : 1661386841236,
+          "stop" : 1661386841236,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST https://js.hs-banner.com/cookie-banner-public/v1/activity/click",
+        "time" : {
+          "start" : 1661386841236,
+          "stop" : 1661386841236,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://forms.hubspot.com/lead-flows-config/v1/config/json?portalId=8006059&utk=156b5f379e55768e219b0f2b4acb9aad&__hstc=73906564.156b5f379e55768e219b0f2b4acb9aad.1661386841130.1661386841130.1661386841130.1&__hssc=73906564.1.1661386841130&currentUrl=https://gatling.io/",
+        "time" : {
+          "start" : 1661386841236,
+          "stop" : 1661386841236,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get [id=\"menu-item-9455\"]",
+        "time" : {
+          "start" : 1661386841236,
+          "stop" : 1661386841245,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1661386841245,
+          "stop" : 1661386841445,
+          "duration" : 200
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "page load --waiting for new page to load--",
+        "time" : {
+          "start" : 1661386841445,
+          "stop" : 1661386841445,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://forms.hubspot.com/lead-flows-config/v1/config/json?portalId=8006059&utk=156b5f379e55768e219b0f2b4acb9aad&__hstc=73906564.156b5f379e55768e219b0f2b4acb9aad.1661386841130.1661386841130.1661386841130.1&__hssc=73906564.1.1661386841130&currentUrl=https%3A%2F%2Fgatling.io%2F",
+        "time" : {
+          "start" : 1661386841446,
+          "stop" : 1661386841915,
+          "duration" : 469
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "new url https://gatling.io/docs/",
+        "time" : {
+          "start" : 1661386841914,
+          "stop" : 1661386841914,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get .home-section h1",
+        "time" : {
+          "start" : 1661386841914,
+          "stop" : 1661386841914,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "assert expected **[ <h1.mt-0>, 1 more... ]** to contain **Welcome to the Gatling Documentation**",
+        "time" : {
+          "start" : 1661386841914,
+          "stop" : 1661386841915,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 27,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get .home-cta a[href*=\"cloud/\"]",
+      "time" : {
+        "start" : 1661386841917,
+        "stop" : 1661386841930,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1661386841930,
+        "stop" : 1661386842173,
+        "duration" : 243
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "page load --waiting for new page to load--",
+      "time" : {
+        "start" : 1661386842172,
+        "stop" : 1661386842172,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get (\"[title=\"User\"]\")",
+      "time" : {
+        "start" : 1661386842173,
+        "stop" : 1661386843575,
+        "duration" : 1402
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST https://js.hs-banner.com/cookie-banner-public/v1/domain-collection",
+      "time" : {
+        "start" : 1661386843574,
+        "stop" : 1661386843574,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://api.hubapi.com/hs-script-loader-public/v1/config/pixel/json?portalId=8006059",
+      "time" : {
+        "start" : 1661386843574,
+        "stop" : 1661386843574,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /docs/search/index.json",
+      "time" : {
+        "start" : 1661386843574,
+        "stop" : 1661386843574,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://api.hubspot.com/livechat-public/v1/message/public?portalId=8006059&conversations-embed=static-1.10632&mobile=false&messagesUtk=42eb76998db8433fb5126dff7160c672&traceId=42eb76998db8433fb5126dff7160c672&hubspotUtk=156b5f379e55768e219b0f2b4acb9aad&__hstc=73906564.156b5f379e55768e219b0f2b4acb9aad.1661386841130.1661386841130.1661386841130.1&__hssc=73906564.1.1661386841130&referrer=https%3A%2F%2Fgatling.io%2F",
+      "time" : {
+        "start" : 1661386843574,
+        "stop" : 1661386843574,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "new url https://gatling.io/docs/enterprise/cloud/",
+      "time" : {
+        "start" : 1661386843574,
+        "stop" : 1661386843574,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://api.hubspot.com/livechat-public/v1/message/public?portalId=8006059&conversations-embed=static-1.10632&mobile=false&messagesUtk=eadfc5dd71904f2695cfa470f49f11a0&traceId=eadfc5dd71904f2695cfa470f49f11a0&hubspotUtk=156b5f379e55768e219b0f2b4acb9aad&__hstc=73906564.156b5f379e55768e219b0f2b4acb9aad.1661386841130.1661386841130.1661386841130.1&__hssc=73906564.2.1661386841130&referrer=https://gatling.io/docs/",
+      "time" : {
+        "start" : 1661386843574,
+        "stop" : 1661386843574,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST https://js.hs-banner.com/cookie-banner-public/v1/domain-collection",
+      "time" : {
+        "start" : 1661386843574,
+        "stop" : 1661386843574,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://api.hubapi.com/hs-script-loader-public/v1/config/pixel/json?portalId=8006059",
+      "time" : {
+        "start" : 1661386843575,
+        "stop" : 1661386843575,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://api.hubspot.com/livechat-public/v1/message/public?portalId=8006059&conversations-embed=static-1.10632&mobile=false&messagesUtk=eadfc5dd71904f2695cfa470f49f11a0&traceId=eadfc5dd71904f2695cfa470f49f11a0&hubspotUtk=156b5f379e55768e219b0f2b4acb9aad&__hstc=73906564.156b5f379e55768e219b0f2b4acb9aad.1661386841130.1661386841130.1661386841130.1&__hssc=73906564.2.1661386841130&referrer=https%3A%2F%2Fgatling.io%2Fdocs%2F",
+      "time" : {
+        "start" : 1661386843575,
+        "stop" : 1661386843575,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 /docs/search/index.json",
+      "time" : {
+        "start" : 1661386843575,
+        "stop" : 1661386843575,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://forms.hubspot.com/collected-forms/v1/config/json?portalId=8006059&utk=156b5f379e55768e219b0f2b4acb9aad",
+      "time" : {
+        "start" : 1661386843575,
+        "stop" : 1661386843575,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get [title=\"User\"]",
+      "time" : {
+        "start" : 1661386843575,
+        "stop" : 1661386843575,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1661386843575,
+        "stop" : 1661386843754,
+        "duration" : 179
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://forms.hubspot.com/lead-flows-config/v1/config/json?portalId=8006059&utk=156b5f379e55768e219b0f2b4acb9aad&__hstc=73906564.156b5f379e55768e219b0f2b4acb9aad.1661386841130.1661386841130.1661386841130.1&__hssc=73906564.3.1661386841130&referrer=https://gatling.io/docs/&currentUrl=https://gatling.io/docs/enterprise/cloud/",
+      "time" : {
+        "start" : 1661386843754,
+        "stop" : 1661386843754,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get [title=\"Login\"]",
+      "time" : {
+        "start" : 1661386843754,
+        "stop" : 1661386843771,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1661386843772,
+        "stop" : 1661386843922,
+        "duration" : 150
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://forms.hubspot.com/lead-flows-config/v1/config/json?portalId=8006059&utk=156b5f379e55768e219b0f2b4acb9aad&__hstc=73906564.156b5f379e55768e219b0f2b4acb9aad.1661386841130.1661386841130.1661386841130.1&__hssc=73906564.3.1661386841130&referrer=https%3A%2F%2Fgatling.io%2Fdocs%2F&currentUrl=https%3A%2F%2Fgatling.io%2Fdocs%2Fenterprise%2Fcloud%2F",
+      "time" : {
+        "start" : 1661386843922,
+        "stop" : 1661386843922,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "page load --waiting for new page to load--",
+      "time" : {
+        "start" : 1661386843922,
+        "stop" : 1661386843922,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://api.hubspot.com/livechat-public/v1/bots/public/bot/1217453/welcomeMessages?hs_static_app=conversations-visitor-ui&hs_static_app_version=1.13084&conversations-visitor-ui=static-1.13084&traceId=eadfc5dd71904f2695cfa470f49f11a0&sessionId=AMOaWbLDElJsxzI--tllamgEjJMFwFSFkAgMRScU2TkocJSqZpRYwVRlJK-2AUa-_IN07F5oGUpHNcWypYvbeWIfYaCwybRc-Mtpwqch77_vwnxZ1ZFPhNhXFs47Wxoe73rQ0iGHDVb63lOwArTZ9seWCqclCSCoYxmhVwel7cLxBlHvqpvn5X4&hubspotUtk=156b5f379e55768e219b0f2b4acb9aad",
+      "time" : {
+        "start" : 1661386843922,
+        "stop" : 1661386846241,
+        "duration" : 2319
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "new url https://gatling.io/docs/enterprise/cloud/reference/user/login/",
+      "time" : {
+        "start" : 1661386846240,
+        "stop" : 1661386846240,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://api.hubspot.com/livechat-public/v1/message/public?portalId=8006059&conversations-embed=static-1.10632&mobile=false&messagesUtk=eadfc5dd71904f2695cfa470f49f11a0&traceId=eadfc5dd71904f2695cfa470f49f11a0&hubspotUtk=156b5f379e55768e219b0f2b4acb9aad&__hstc=73906564.156b5f379e55768e219b0f2b4acb9aad.1661386841130.1661386841130.1661386841130.1&__hssc=73906564.3.1661386841130&referrer=https://gatling.io/docs/enterprise/cloud/",
+      "time" : {
+        "start" : 1661386846240,
+        "stop" : 1661386846240,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST https://js.hs-banner.com/cookie-banner-public/v1/domain-collection",
+      "time" : {
+        "start" : 1661386846240,
+        "stop" : 1661386846240,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://api.hubapi.com/hs-script-loader-public/v1/config/pixel/json?portalId=8006059",
+      "time" : {
+        "start" : 1661386846240,
+        "stop" : 1661386846240,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://api.hubspot.com/livechat-public/v1/message/public?portalId=8006059&conversations-embed=static-1.10632&mobile=false&messagesUtk=eadfc5dd71904f2695cfa470f49f11a0&traceId=eadfc5dd71904f2695cfa470f49f11a0&hubspotUtk=156b5f379e55768e219b0f2b4acb9aad&__hstc=73906564.156b5f379e55768e219b0f2b4acb9aad.1661386841130.1661386841130.1661386841130.1&__hssc=73906564.3.1661386841130&referrer=https%3A%2F%2Fgatling.io%2Fdocs%2Fenterprise%2Fcloud%2F",
+      "time" : {
+        "start" : 1661386846241,
+        "stop" : 1661386846241,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://forms.hubspot.com/collected-forms/v1/config/json?portalId=8006059&utk=156b5f379e55768e219b0f2b4acb9aad",
+      "time" : {
+        "start" : 1661386846241,
+        "stop" : 1661386846241,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 /docs/search/index.json",
+      "time" : {
+        "start" : 1661386846241,
+        "stop" : 1661386846241,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://api.hubspot.com/livechat-public/v1/thread/visitor/recent?hs_static_app=conversations-visitor-ui&hs_static_app_version=1.13084&conversations-visitor-ui=static-1.13084&traceId=eadfc5dd71904f2695cfa470f49f11a0&sessionId=AMOaWbIQMr_u0ragoemKFdt9KgFmlelNeVaKCl49oL7tCppVLj572yEB8Ak1B9AfOVgvsiAp0xyqjiWOS0Ese-wnaP21bWP_IfnKeZNAqR--uSYg1u1rs8JVZOoFRpLsEfHUVHvz_-8oXv23p-ieXH4MWVZQbX9pzdGp3w9y7mQM7h-GK2ly7Tw",
+      "time" : {
+        "start" : 1661386846241,
+        "stop" : 1661386846241,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET 200 https://api.hubspot.com/livechat-public/v1/bots/public/bot/1217453/welcomeMessages?hs_static_app=conversations-visitor-ui&hs_static_app_version=1.13084&conversations-visitor-ui=static-1.13084&traceId=eadfc5dd71904f2695cfa470f49f11a0&sessionId=AMOaWbIQMr_u0ragoemKFdt9KgFmlelNeVaKCl49oL7tCppVLj572yEB8Ak1B9AfOVgvsiAp0xyqjiWOS0Ese-wnaP21bWP_IfnKeZNAqR--uSYg1u1rs8JVZOoFRpLsEfHUVHvz_-8oXv23p-ieXH4MWVZQbX9pzdGp3w9y7mQM7h-GK2ly7Tw&hubspotUtk=156b5f379e55768e219b0f2b4acb9aad",
+      "time" : {
+        "start" : 1661386846241,
+        "stop" : 1661386846241,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get img[src*=\"login-github-oauth.png\"]",
+      "time" : {
+        "start" : 1661386846241,
+        "stop" : 1661386846241,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1661386846241,
+        "stop" : 1661386846383,
+        "duration" : 142
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://forms.hubspot.com/lead-flows-config/v1/config/json?portalId=8006059&utk=156b5f379e55768e219b0f2b4acb9aad&__hstc=73906564.156b5f379e55768e219b0f2b4acb9aad.1661386841130.1661386841130.1661386841130.1&__hssc=73906564.4.1661386841130&referrer=https://gatling.io/docs/enterprise/cloud/&currentUrl=https://gatling.io/docs/enterprise/cloud/reference/user/login/",
+      "time" : {
+        "start" : 1661386846383,
+        "stop" : 1661386846383,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET https://forms.hubspot.com/lead-flows-config/v1/config/json?portalId=8006059&utk=156b5f379e55768e219b0f2b4acb9aad&__hstc=73906564.156b5f379e55768e219b0f2b4acb9aad.1661386841130.1661386841130.1661386841130.1&__hssc=73906564.4.1661386841130&referrer=https%3A%2F%2Fgatling.io%2Fdocs%2Fenterprise%2Fcloud%2F&currentUrl=https%3A%2F%2Fgatling.io%2Fdocs%2Fenterprise%2Fcloud%2Freference%2Fuser%2Flogin%2F",
+      "time" : {
+        "start" : 1661386846383,
+        "stop" : 1661386846383,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "get #lightbox > img",
+      "time" : {
+        "start" : 1661386846383,
+        "stop" : 1661386846423,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **<img>** to exist in the DOM",
+      "time" : {
+        "start" : 1661386846423,
+        "stop" : 1661386846423,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "<img>"
+      }, {
+        "name" : "expected",
+        "value" : "<img>"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "assert expected **<img>** to be **visible**",
+      "time" : {
+        "start" : 1661386846423,
+        "stop" : 1661386846423,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 67,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "CTDocumentacao"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "509f5498784e817f.json",
+  "parameterValues" : [ ]
+}
