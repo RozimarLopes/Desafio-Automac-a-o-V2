@@ -10,7 +10,8 @@
     "cypress:run:firefox": "npx cypress run --browser firefox --env allure=true",
     "allure:generate": "allure generate allure-results",
     "postest": "allure open allure-report",
-    "pretest": "rmdir /s/q allure-results allure-report || true"
+    "pretest": "rmdir /s/q allure-results allure-report || true",
+    "test":"npx npm-run-all pretest cypress:run:chrome allure:generate postest"
   },
   "devDependencies": {
     "@babel/core": "^7.18.5",
