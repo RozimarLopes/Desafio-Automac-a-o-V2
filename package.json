@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "cypress:verify": "cypress verify",
-    "cypress:run:chrome": "npx cypress run --browser chrome --spec cypress/e2e/ST03Menu/**/* --env allure=true",
+    "cypress:run:chrome": "npx cypress run --browser chrome --env allure=true",
     "cypress:run:edge": "npx cypress run --browser edge --env allure=true",
     "cypress:run:firefox": "npx cypress run --browser firefox --env allure=true",
     "allure:generate": "allure generate allure-results || true",

@@ -13,11 +13,11 @@ describe('CTHome', () => {
     it('cT02ValidaSecaoNews', () => {
         home.Secao('News')
     })
-
+/*
     it('cT03ValidaSecaoDepoimentos', () => {
         home.Secao('Depoimento')
     })
-
+*/
     it('cT04ValidaLinkGatlingEnterpriseCloud', () => {
         home.LinkGatlingEnterprise()
     })

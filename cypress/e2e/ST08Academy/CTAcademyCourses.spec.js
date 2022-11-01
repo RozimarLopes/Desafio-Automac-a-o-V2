@@ -18,7 +18,7 @@ describe('CTCourses', () => {
     it('cT03ValidaLinkRegistroCursoFirstTestJava', () => {
         academycourse.Curso('FirstTestJava')
     })
-
+/*
     it('cT04ValidaAvisarProximoModulo', () => {
         academycourse.AvisoProximoModulo()
     })
@@ -26,5 +26,5 @@ describe('CTCourses', () => {
     it('cT05ValidaCampoEmailMailingList', () => {
         academycourse.MailingList()
     })
-
+*/
 })

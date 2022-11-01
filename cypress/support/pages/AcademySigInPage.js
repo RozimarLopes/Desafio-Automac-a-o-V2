@@ -6,7 +6,7 @@ class AcademySigInPage {
     constructor() {
         this.TituloPageLogin = '[class="page__heading"]'
         this.BotaoRegistrarAgora = '[class="vc_btn3-container  orange_button vc_btn3-inline"]'
-        this.MenuSigIn = 'a[href*="/sign_in"]'
+        this.MenuSigIn = '//parent::li[contains(a,"Sign In")]'
         this.BotaoLinkedin = '[class="button linkedin"]'
         this.LogoLinkefin = '[type="linkedin-logo"]'
         this.BotaoGoogle = '[class="button google"]'
@@ -36,7 +36,7 @@ class AcademySigInPage {
     AcademySubMenuSigIn() {
         academynewaccount.AcademyMenu()
         cy.get(this.BotaoRegistrarAgora).click()
-        cy.get(this.MenuSigIn).click()
+        cy.xpath(this.MenuSigIn).click()
     }
 
     RedeSocial(redesocial) {

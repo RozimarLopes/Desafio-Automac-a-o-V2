@@ -10,7 +10,7 @@ class RodapePage {
         this.Youtube = 'img[src*="youtube.svg"]'
         this.PaginaYoutube = '#logo.ytd-masthead [title="Página inicial do YouTube"]'
         this.GitHub = 'img[src*="github.svg"]'
-        this.PaginaGitHub = '.d-lg-flex [class="octicon octicon-mark-github"]'
+        this.PaginaGitHub = '.Header-old [class="octicon octicon-mark-github"]'
         this.Privacy = '#menu-item-9650'
         this.PaginaPrivacyTerms = '[class="title_get_started"]'
         this.Terms = '#menu-item-9683'

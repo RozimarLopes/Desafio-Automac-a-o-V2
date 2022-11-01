@@ -10,11 +10,11 @@ describe('CTGatlingEnterprise', () => {
     it('cT01ValidaBotaoTrySelfHosted', () => {
         enterprise.FerramentaTeste('SelfHosted')
     })
-
+/*
     it('cT02ValidaBotaoTryCloud', () => {
         enterprise.FerramentaTeste('Cloud')
     })
-
+*/
     it('cT03ValidaLinkReadFAQAzure', () => {
         enterprise.PerguntasFrequentes('Azure')
     })
@@ -22,11 +22,11 @@ describe('CTGatlingEnterprise', () => {
     it('cT04ValidaLinkReadFAQAws', () => {
         enterprise.PerguntasFrequentes('Aws')
     })
-
+/*
     it('cT05ValidaBotaoLerDocumentacao', () => {
         enterprise.Documentacao()
     })
-
+*/
     it('cT06ValidaBotaoLerMaisCloudOffers', () => {
         enterprise.LerMaisCloud()
     })

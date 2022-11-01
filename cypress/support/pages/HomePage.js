@@ -36,11 +36,11 @@ class HomePage {
     Secao(tipo) {
         switch (tipo) {
             case 'News':
-                cy.get(this.ValidaTituloNews).should('contain', 'New injector region: Mumbai, India')
+                cy.get(this.ValidaTituloNews).should('contain', 'New locations : Welcome to Hong Kong and Tokyo!')
                 cy.get(this.News2).click()
-                cy.get(this.ValidaTituloNews).should('contain', 'Gatling Academy Module 3: load test a RESTful API')
-                cy.get(this.News3).click()
                 cy.get(this.ValidaTituloNews).should('contain', 'Introducing Gatling 3.8')
+                //cy.get(this.News3).click()
+                //cy.get(this.ValidaTituloNews).should('contain', 'Introducing Gatling 3.8')
                 break;
             case 'Depoimento':
                 cy.get(this.Depoimento2).click()

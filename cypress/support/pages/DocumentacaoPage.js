@@ -15,7 +15,7 @@ class DocumentacaoPage {
         this.ClicarSugestao = '[class="suggestion"]'
         this.Titulo = 'main > h1'
         this.AcessoGitHub = '[class="feather feather-github"]'
-        this.LogoGitHub = '.d-lg-flex [class="octicon octicon-mark-github"]'
+        this.LogoGitHub = '.d-flex [class="octicon octicon-mark-github"]'
         this.GitHubGatling = '[class="h2 lh-condensed"]'
         this.BotaoGatlingDocs = '//a[@role="button"][contains(text(),"Gatling Docs")]'
         this.SubMenuDebugging = '[title="Debugging"]'

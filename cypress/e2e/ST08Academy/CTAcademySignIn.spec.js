@@ -7,11 +7,11 @@ describe('CTSigIn', () => {
         suporte.NavegaSite()
         academysigin.AcademySubMenuSigIn()
     })
-/*
+
     it('cT01ValidaLinkRedeSocialLinkedin', () => {
         academysigin.RedeSocial('Linkedin')
     })
-*/
+
     it('cT02ValidaLogin', () => {
         academysigin.Login()
     })

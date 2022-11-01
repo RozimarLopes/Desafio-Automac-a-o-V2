@@ -30,10 +30,10 @@ describe('CTDocumentacao', () => {
     it('cT06ValidaSelfHostedReferencia', () => {
         documentacao.Referencia()
     })
-
+/*
     it('cT07ValidaCarregamentoImagemCloud', () => {
         documentacao.Imagem()
     })
-
+*/
 
 })
