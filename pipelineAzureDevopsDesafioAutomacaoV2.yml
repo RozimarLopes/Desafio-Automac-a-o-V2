@@ -1,0 +1,38 @@
+trigger:
+  branches:
+    include:
+    - main
+stages:
+- stage: __default
+  jobs:
+  - job: Job
+    pool:
+      vmImage: ubuntu-latest
+    steps:
+    - task: NodeTool@0
+      inputs:
+        versionSpec: '17.x'
+      displayName: 'Install Node.js'
+    - task: CmdLine@2
+      displayName: 'Install project dependencies'
+      inputs:
+        script: |
+          npm ci
+    - task: CmdLine@2
+      displayName: 'Verify if Cypress can be executed'
+      inputs:
+        script: |
+          npm run cypress:verify
+    - task: CmdLine@2
+      displayName: 'Executed test Cypress 1st block'
+      inputs:
+        script: |
+          set CYPRESS_VERIFY_TIMEOUT=100000
+          npm run teste
+    - task: PublishTestResults@2
+      displayName: 'Publish the test reports'
+      inputs:
+        testResultsFiles: '**/test-*.xml'
+      condition: succeededOrFailed()
+      continueOnError: true
+
