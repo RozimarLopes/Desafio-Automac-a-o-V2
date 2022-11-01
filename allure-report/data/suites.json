@@ -5,13 +5,13 @@
     "name" : "CTMenu",
     "children" : [ {
       "name" : "cT01ValidaSubMenuWhyGatling",
-      "uid" : "29a0a99556e74677",
+      "uid" : "94adcdcf18308409",
       "parentUid" : "f41dfbed44f2375549b4d0c3811c45fe",
       "status" : "passed",
       "time" : {
-        "start" : 1664995015585,
-        "stop" : 1664995036971,
-        "duration" : 21386
+        "start" : 1667325035162,
+        "stop" : 1667325059164,
+        "duration" : 24002
       },
       "flaky" : false,
       "newFailed" : false,
@@ -22,13 +22,13 @@
       "parameters" : [ ]
     }, {
       "name" : "cT02ValidaSubMenuLearnMore",
-      "uid" : "be4f9e5417e30071",
+      "uid" : "ef9467961d1662af",
       "parentUid" : "f41dfbed44f2375549b4d0c3811c45fe",
       "status" : "passed",
       "time" : {
-        "start" : 1664995037035,
-        "stop" : 1664995043553,
-        "duration" : 6518
+        "start" : 1667325059253,
+        "stop" : 1667325074983,
+        "duration" : 15730
       },
       "flaky" : false,
       "newFailed" : false,

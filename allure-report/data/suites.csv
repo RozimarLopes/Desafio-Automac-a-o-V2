@@ -1,3 +1,3 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Wed Oct 05 15:36:55 BRT 2022","Wed Oct 05 15:37:16 BRT 2022","21386","","CTMenu","","","","cT01ValidaSubMenuWhyGatling",""
-"passed","Wed Oct 05 15:37:17 BRT 2022","Wed Oct 05 15:37:23 BRT 2022","6518","","CTMenu","","","","cT02ValidaSubMenuLearnMore",""
+"passed","Tue Nov 01 14:50:35 BRT 2022","Tue Nov 01 14:50:59 BRT 2022","24002","","CTMenu","","","","cT01ValidaSubMenuWhyGatling",""
+"passed","Tue Nov 01 14:50:59 BRT 2022","Tue Nov 01 14:51:14 BRT 2022","15730","","CTMenu","","","","cT02ValidaSubMenuLearnMore",""

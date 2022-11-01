@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="39.7280" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-11-01T17:50:35" tests="0" file="cypress\e2e\ST03Menu\CTMenu.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="CTMenu" timestamp="2022-11-01T17:50:35" tests="2" time="39.7280" failures="0">
+    <testcase name="CTMenu cT01ValidaSubMenuWhyGatling" time="23.9990" classname="cT01ValidaSubMenuWhyGatling">
+    </testcase>
+    <testcase name="CTMenu cT02ValidaSubMenuLearnMore" time="15.7290" classname="cT02ValidaSubMenuLearnMore">
+    </testcase>
+  </testsuite>
+</testsuites>

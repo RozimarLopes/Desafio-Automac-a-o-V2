@@ -8,7 +8,7 @@
     "cypress:run:chrome": "npx cypress run --browser chrome --spec cypress/e2e/ST03Menu/**/* --env allure=true",
     "cypress:run:edge": "npx cypress run --browser edge --env allure=true",
     "cypress:run:firefox": "npx cypress run --browser firefox --env allure=true",
-    "allure:generate": "allure generate allure-results",
+    "allure:generate": "allure generate allure-results || true",
     "postest": "allure open allure-report",
     "allure:pretest": "rmdir /s/q allure-results allure-report || true",
     "teste": "npm-run-all allure:pretest cypress:run:chrome allure:generate"
